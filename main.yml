@@ -1,0 +1,4 @@
+- name: Run OSPP compliance playbook on RHEL7 machine
+  hosts: "{{ vm_name }}"
+  roles:
+     - { role: RedHatOfficial.rhel7-role-ospp }
